@@ -7,7 +7,7 @@ const bingoItems = [
   "'Qual vai ser a próxima viagem?'",
   "'Nunca mais alugo cadeira'",
   "Alugou cadeira",
-  "Tentar fazer o Beni repetir alguma coisa sem sucesso",
+  "Fazer o Beni repetir alguma coisa",
   "Junior Fazendo drama",
   "Reclamar da Playlist",
 ] as const;
