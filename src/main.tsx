@@ -5,7 +5,7 @@ import "./index.css";
 import RoutesComponent from "./routes";
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter>
+  <BrowserRouter basename="bingo-sromc">
     <RoutesComponent />
   </BrowserRouter>
 );
