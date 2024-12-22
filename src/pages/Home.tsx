@@ -90,7 +90,7 @@ function Table({
         {bingoItems.map((item: string, itemIndex: number) => (
           <div
             key={itemIndex}
-            className={`size-[120px] cursor-pointer rounded-md border p-4 text-xs font-semibold transition-colors md:size-[200px] md:text-base ${
+            className={`size-[100px] cursor-pointer rounded-md border p-4 text-xs font-semibold transition-colors md:size-[200px] md:text-base ${
               selectedItems.includes(itemIndex)
                 ? "border-blue-800 bg-blue-800 text-white"
                 : `border-blue-800 bg-white text-gray-900 ${!viewMode && "hover:bg-blue-600 hover:text-white"}`
