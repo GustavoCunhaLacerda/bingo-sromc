@@ -7,7 +7,7 @@ export default function Home() {
   const [bingoItems, setBingoItems] = useState(database.getNineFlushedItems());
 
   return (
-    <div className="flex h-screen flex-col items-center justify-center gap-10 bg-gray-50">
+    <div className="flex h-dvh flex-col items-center justify-center gap-10 bg-gray-50">
       <header className="w-full p-6 text-center">
         <h1 className="font-sans text-4xl font-semibold">Bingo SROMC</h1>
       </header>
