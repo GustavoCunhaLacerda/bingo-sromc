@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import database from "../data/database";
-import Fireworks, { FireworksHandlers } from "@fireworks-js/react";
+import Fireworks from "@fireworks-js/react";
 
 export default function Home() {
   const bingoItems = database.getNineFlushedItems();
